@@ -1,7 +1,8 @@
 print ('**********The string reverser*********')
 string=str(input ('\nEnter your string:\n>>'))
 sr=len(string)
-print ("\nThe length of string is:\n",sr,"characters\n")
+print ("\n-------------------------------------")
+print ("The length of string is:\n      ",sr,"characters\n")
 rev=''
 i=sr-1
 space=0
@@ -62,7 +63,9 @@ def RevCharInWord(string):
         
        
 #select type of reverse            
+print ('------------------------------------')
 reverse_type=input('Enter revers type:\nReverse all string    :"A"\nReverse words position:"W"\nReverse char in words :"C"\npress any key to exit\n:>>'). lower()    
+print ('\n------------------------------------')
 if (reverse_type=="a"):
     rev=RevAllChar(string)
     print('The Reverse string is:')
